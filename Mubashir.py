@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def test():
-    return render_template('index.html')
+    return ('This is Assignment 04 of TOCS..')
 
 if __name__ == '__main__':
     app.run()
